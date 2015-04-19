@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author Matthew
  */
 @Controller
-@RequestMapping("/deleteItem")
+@RequestMapping("/inventory/delete")
 public class DeleteItemController {
     
     @RequestMapping(method = RequestMethod.GET)
     public String deleteItem(ModelMap map) {
         // Must return name of file (minus .jsp) under /views
-        return "deleteItem";
+        return "delete-item";
     }
     
 }

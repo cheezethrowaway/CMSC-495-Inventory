@@ -26,9 +26,9 @@
             </div>
             
             <div class="icon">
-                <a href="${cp}/inventory/new">
+                <a href="${cp}/inventory/create">
                     <span class="glyphicon glyphicon-plus-sign"></span>
-                    <span>Add Item</span>
+                    <span>Create Item</span>
                 </a>
             </div>
             

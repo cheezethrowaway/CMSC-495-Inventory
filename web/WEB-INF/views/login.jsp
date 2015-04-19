@@ -49,7 +49,7 @@
                     </c:if>
                     
                     <div class="container-fluid text-center">
-                        If you're having trouble logging in, you can <a href="${cp}/login-reset">reset your password</a>, or <a href="${cp}/login-username">find your username</a>.
+                        If you're having trouble logging in, you can <a href="${cp}/login/reset">reset your password</a>, or <a href="${cp}/login/username">find your username</a>.
                     </div>
                 </form>
                 

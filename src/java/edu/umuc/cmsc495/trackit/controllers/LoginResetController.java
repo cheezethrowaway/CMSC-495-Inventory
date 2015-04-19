@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author Christian
  */
 @Controller
-@RequestMapping("/login-reset")
+@RequestMapping("/login/reset")
 public class LoginResetController {
     
     @RequestMapping(method = RequestMethod.GET)

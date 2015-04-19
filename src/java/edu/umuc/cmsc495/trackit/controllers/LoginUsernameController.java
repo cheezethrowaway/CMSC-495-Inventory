@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author Christian
  */
 @Controller
-@RequestMapping("/login-username")
+@RequestMapping("/login/username")
 public class LoginUsernameController {
     
     @RequestMapping(method = RequestMethod.GET)

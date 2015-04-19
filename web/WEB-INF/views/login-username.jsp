@@ -23,7 +23,7 @@
                 
                 <p class="lead text-center">Enter your email to receive your username</p>
                 
-                <form action="${cp}/login-username" method="post" id="loginForm" name="loginForm">
+                <form action="${cp}/login/username" method="post" id="loginForm" name="loginForm">
                     
                     <div class="form-group container-fluid">
                         <span class="col-lg-4">

@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author Matthew
  */
 @Controller
-@RequestMapping("/viewItem")
+@RequestMapping("/inventory/view")
 public class ViewItemController {
     
     @RequestMapping(method = RequestMethod.GET)
     public String viewItem(ModelMap map) {
         // Must return name of file (minus .jsp) under /views
-        return "viewItem";
+        return "view-item";
     }
     
 }
